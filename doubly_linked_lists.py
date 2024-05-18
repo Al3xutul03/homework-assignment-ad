@@ -13,7 +13,7 @@ def generate_elements(head, tail, no_cases):
     prefix_sum = 0
     for i in range(1, no_cases + 1):
         new_node = DoublyNode()
-        new_node.info = random.randint(0, 1000)
+        new_node.info = random.randint(0, 10000)
         prefix_sum += new_node.info
         new_node.prefix_sum = prefix_sum
         new_node.previous = current
