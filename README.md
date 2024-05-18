@@ -1,6 +1,6 @@
 # homework-assignment-ad
 
-This program randomly generates a list of integers, with the size of it taken as an input.
+This program randomly generates a list of integers into an array, with the size of it taken as an input, and separates the array into 3 subarrays, such that the sum of their respective elements is as close as possible.
 
 To compile the program on your machine follow these steps:
 
