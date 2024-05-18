@@ -24,9 +24,11 @@ int main(void) {
     // Variables for measuring process time
     clock_t start, end;
 
+    // Take the number of elements
     int no_cases;
-    printf("Input the number of cases: ");
+    printf("Input the number of array elements: ");
     scanf("%d", &no_cases);
+    
     start = clock();
      // Generate the array and output it
     generate_elements(head, tail, no_cases);
